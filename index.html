@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <!-- <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio website complete</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="/" class="nav__logo">Bishal Karmakar</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Bishal Karmakar</span><br>
+                    <span
+                        id="job-title" style="height: 30px; display:inline-block;">
+                    </span></h1>
+                    <a href="https://drive.google.com/file/d/1y0pepE9R-rQbDKSIArA42nE9HKEUGPvU/view?usp=drive_link" class="button">Download Resume</a>
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/bishal-karmakar-03629524b/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Bishal-35/" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="mailto:karmakarbishal234@gmail.com" class="home__social-icon"><i class='bx bxl-gmail'></i></a>
+            </div>
+
+            <!-- <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div> -->
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/profile.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Bishal Karmakar</h2>
+                    <p class="about__text">I am a tech enthusiast with a strong foundation in programming, skilled in C,
+                        C++, Python, Java, SQL, PHP, and JavaScript. My experience spans both frontend and backend
+                        development, working with HTML, CSS, TypeScript, Expo, Node.js, and MySQL. <br> I have a growing
+                        interest in machine learning (ML) and deep learning (DL), where I consider myself an
+                        intermediate in Python and a beginner in ML/DL. I am passionate about applying AI to real-world
+                        problems, particularly in handwritten text recognition (HTR), gait recognition for Parkinson’s
+                        disease detection, and AI-driven strategy games using deep reinforcement learning.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== EDUCATION =====-->
+        <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div id="educationContainer" class="education-container bd-grid">
+                <div class="card">
+                    <div class="ed-tags">
+                        <p class="ed-tag"><b><i>2022 - Ongoing</i></b></p>
+                    </div>
+                    <h3>Central Institute of Technology Kokrajhar</h3>
+                    <h4>B.Tech</h4>
+                    <span>CGPA - 8.72</span>
+                </div>
+
+                <div class="card">
+                    <div class="ed-tags">
+                        <p class="ed-tag"><b><i>2019 - 2021</i></b></p>
+                    </div>
+                    <h3>Kendriya Vidyalaya, Rangia</h3>
+                    <h4>Intermediate</h4>
+                    <span>Marks - 94.14%</span>
+                </div>
+
+                <div class="card">
+                    <div class="ed-tags">
+                        <p class="ed-tag"><b><i>2007 - 2019</i></b></p>
+                    </div>
+                    <h3>Fatima Convent School, Rangia</h3>
+                    <h4>Matriculation</h4>
+                    <span>Marks - 91.20%</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div id="skillsContainer" class="bd-grid">
+                <!-- Languages & Databases -->
+                <div class="skill-section bd-grid">
+                    <h3>Languages & Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="assets/skills/html.png" alt="HTML">
+                            <p>HTML</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/css.png" alt="CSS">
+                            <p>CSS</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/java.png" alt="Java">
+                            <p>Java</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/php.png" alt="PHP">
+                            <p>PHP</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/js.png" alt="JavaScript">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/python.png" alt="Python">
+                            <p>Python</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/mysql.png" alt="MySQL">
+                            <p>MySQL</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/c.png" alt="C">
+                            <p>C</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/mongo-db.png" alt="MongoDB">
+                            <p>MongoDB</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Technologies -->
+                <div class="skill-section bd-grid">
+                    <h3>Frameworks & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="assets/skills/android_new.png" alt="Android">
+                            <p>Android</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/react.png" alt="React">
+                            <p>React</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/nodejs.png" alt="Nodejs">
+                            <p>Nodejs</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/typescript.png" alt="TypeScript">
+                            <p>TypeScript</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/expo.png" alt="EXPO">
+                            <p>EXPO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-section bd-grid">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="assets/skills/android-studio.png" alt="Android Studio">
+                            <p>Android Studio</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="assets/skills/git.png" alt="Git">
+                            <p>Git</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--===== EXPERIENCE =====-->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="timeline-container">
+                <!-- Experience 1 -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"><i class='bx bx-code-alt'></i></div>
+                    <div class="timeline-date">May 2023 - August 2023</div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <h3>Full Stack Developer Intern</h3>
+                                <span class="company"><i class='bx bx-building-house'></i> XYZ Tech Solutions</span>
+                            </div>
+                            <div class="card-body">
+                                <ul class="responsibility-list">
+                                    <li><i class='bx bx-check-circle'></i> Developed web applications using React.js and Node.js</li>
+                                    <li><i class='bx bx-check-circle'></i> Implemented RESTful API endpoints with MongoDB integration</li>
+                                    <li><i class='bx bx-check-circle'></i> Collaborated with senior developers on performance optimization</li>
+                                    <li><i class='bx bx-check-circle'></i> Participated in daily stand-ups and sprint planning</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <span class="exp-tag">React</span>
+                                <span class="exp-tag">Node.js</span>
+                                <span class="exp-tag">MongoDB</span>
+                                <span class="exp-tag">REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"><i class='bx bx-globe'></i></div>
+                    <div class="timeline-date">January 2023 - Present</div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <h3>Web Development Volunteer</h3>
+                                <span class="company"><i class='bx bx-group'></i> College Tech Club</span>
+                            </div>
+                            <div class="card-body">
+                                <ul class="responsibility-list">
+                                    <li><i class='bx bx-check-circle'></i> Designed and developed the club's official website</li>
+                                    <li><i class='bx bx-check-circle'></i> Mentored junior members in web development basics</li>
+                                    <li><i class='bx bx-check-circle'></i> Organized workshops for beginners</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <span class="exp-tag">HTML</span>
+                                <span class="exp-tag">CSS</span>
+                                <span class="exp-tag">JavaScript</span>
+                                <span class="exp-tag">Mentoring</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"><i class='bx bx-brain'></i></div>
+                    <div class="timeline-date">October 2022 - December 2022</div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <h3>Machine Learning Research Assistant</h3>
+                                <span class="company"><i class='bx bx-test-tube'></i> University Research Lab</span>
+                            </div>
+                            <div class="card-body">
+                                <ul class="responsibility-list">
+                                    <li><i class='bx bx-check-circle'></i> Assisted in data collection for handwritten text recognition</li>
+                                    <li><i class='bx bx-check-circle'></i> Implemented ML algorithms with Python and TensorFlow</li>
+                                    <li><i class='bx bx-check-circle'></i> Documented research findings in weekly reports</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <span class="exp-tag">Python</span>
+                                <span class="exp-tag">TensorFlow</span>
+                                <span class="exp-tag">Data Analysis</span>
+                                <span class="exp-tag">Research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== PROJECT =====-->
+        <section class="project section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div id="projectContainer" class="project-container bd-grid">
+                <!-- My Portfolio -->
+                <div class="card">
+                    <h2>My Portfolio</h2>
+                    <p>
+                    <ul>
+                        <li>Portfolio Website made in <strong>React</strong></li>
+                    </ul>
+                    <ul>
+                        <li>Fully customizable and dynamic, easily change data and images.</li>
+                    </ul>
+                    <ul>
+                        <li>Dark Mode Support</li>
+                    </ul>
+                    </p>
+                    <div class="links">
+                        <button
+                            onclick="window.open('https://github.com/Bishal-35/portfolio', '_blank')">GitHub</button>
+                        <button onclick="window.open('', '_blank')">Live</button>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Portfolio</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Vercel</span>
+                    </div>
+                </div>
+
+                <!-- Task Man -->
+                <div class="card">
+                    <h2>Task Man - Your personal task manager</h2>
+                    <p>
+                    <ul>
+                        <li>A simple Task Manager web app made with <strong>React.js</strong>.</li>
+                    </ul>
+                    <ul>
+                        <li>Uses <strong>Redux</strong> and <strong>localstorage</strong> to add, delete or update
+                            tasks.</li>
+                    </ul>
+                    <ul>
+                        <li>Added filtering based on date, status and priority with drag and drop to auto change
+                            priority.</li>
+                    </ul>
+                    </p>
+                    <div class="links">
+                        <button
+                            onclick="window.open('https://github.com/Bishal-35/react-task-management', '_blank')">GitHub</button>
+                        <button
+                            onclick="window.open('https://react-task-management-ashen.vercel.app', '_blank')">Live</button>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Redux</span>
+                        <span class="tag">Material.ui</span>
+                        <span class="tag">Vercel</span>
+                    </div>
+                </div>
+
+                <!-- Wanderlust -->
+                <div class="card">
+                    <h2>Wanderlust - Your Travel Partner</h2>
+                    <p>
+                    <ul>
+                        <li>Developed using <strong>Node.js</strong>and <strong>Express.js</strong>.</li>
+                    </ul>
+                    <ul>
+                        <li>Database is managed using <strong>MongoDB</strong>.</li>
+                    </ul>
+                    <ul>
+                        <li><strong>EJS templating</strong> and <strong>Bootstrap 5</strong> is used for designing the
+                            frontend.</li>
+                    </ul>
+                    </p>
+                    <div class="links">
+                        <button
+                            onclick="window.open('https://github.com/Bishal-35/Wanderlust', '_blank')">GitHub</button>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express.js</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">EJS</span>
+                        <span class="tag">Bootstrap 5</span>
+                    </div>
+                </div>
+
+                <!-- Spotify Clone -->
+                <div class="card">
+                    <h2>Spotify Clone</h2>
+                    <p>
+                    <ul>
+                        <li>Built the Spotify web homepage using <strong>HTML</strong> and <strong>CSS</strong>.</li>
+                    </ul>
+                    </p>
+                    <div class="links">
+                        <button
+                            onclick="window.open('https://github.com/mayankagarwal09/SecureChatApp', '_blank')">GitHub</button>
+                        <button
+                            onclick="window.open('https://spotify-clone-mocha-delta.vercel.app', '_blank')">Live</button>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Vercel</span>
+                    </div>
+                </div>
+
+                <!-- Electronics Shop Management -->
+                <div class="card">
+                    <h2>Electronics Shop Management</h2>
+                    <p>
+                    <ul>
+                        <li>A database management system designed using <strong>MySQL</strong>, <strong>Node.js</strong>
+                            and <strong>Express.js</strong>.</li>
+                    </ul>
+                    <ul>
+                        <li><strong>EJS templating</strong> and <strong>Bootstrap 5</strong> is used for designing the
+                            frontend.</li>
+                    </ul>
+                    </p>
+                    <div class="links">
+                        <button
+                            onclick="window.open('https://github.com/Bishal-35/electronics-shop', '_blank')">GitHub</button>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express.js</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">EJS</span>
+                        <span class="tag">Bootstrap 5</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <!-- <p class="footer__title">Bishal</p> -->
+        <!-- <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div> -->
+        <p class="footer__copy">Made with <b>&hearts;</b> by Bishal</p>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        const jobTitle = document.getElementById('job-title');
+        const jobs = ['Web Designer', 'Frontend Engineer', 'Backend Engineer'];
+        let jobIndex = 0;
+        let charIndex = 0;
+
+        function typeWriter() {
+            if (charIndex < jobs[jobIndex].length) {
+                jobTitle.textContent += jobs[jobIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(typeWriter, 50); // Typing speed (milliseconds)
+            } else {
+                setTimeout(erase, 1000); // Wait before erasing
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                jobTitle.textContent = jobs[jobIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(erase, 30); // Erasing speed (milliseconds)
+            } else {
+                jobIndex = (jobIndex + 1) % jobs.length;
+                setTimeout(typeWriter, 500); // Wait before typing next job
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(typeWriter, 1000); // Start after 1 second
+        });
+    </script>
+</body>
+
+</html>
