@@ -1,6 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
+
 :root {
   --header-height: 3rem;
   --font-semi: 600;
@@ -765,7 +766,7 @@ h4{
     content: '';
     position: absolute;
     width: 6px;
-    background: linear-gradient(to bottom, var(--first-color), #4CAF50);
+    background: linear-gradient(to bottom, var(--first-color), #394786);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -838,8 +839,9 @@ h4{
 /* Date badges */
 .timeline-date {
     position: absolute;
-    background: linear-gradient(135deg, var(--first-color), #4CAF50);
-    color: var(--white-color);
+    background: linear-gradient(135deg, var(--first-color), #394786);
+    /* color: var(--white-color); */
+    color: #f0f0f0;
     border-radius: 30px;
     padding: 0.7rem 1.2rem;
     font-size: 0.9rem;
