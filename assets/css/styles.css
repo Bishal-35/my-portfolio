@@ -372,6 +372,20 @@ img {
   border-radius: 0.5rem;
 }
 
+/* Center skill items */
+.skill-item {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.skill-item img {
+  display: block;
+  margin: 0 auto;
+  width: 80px;  /* Set default width */
+  height: 80px; /* Set default height */
+  object-fit: contain; /* Maintain aspect ratio */
+}
+
 /* ===== Experience =====*/
 .work__container {
   row-gap: 2rem;
@@ -730,13 +744,14 @@ h4{
 
 .skill-item {
   text-align: center;
-  margin: 10px;
 }
 
 .skill-item img {
-  height: 75px;
-  width: 75px;
-  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 80px;  /* Set default width */
+  height: 80px; /* Set default height */
+  object-fit: contain; /* Maintain aspect ratio */
 }
 
 @media (max-width: 768px) {
